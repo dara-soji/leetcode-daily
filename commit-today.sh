@@ -13,6 +13,8 @@ if git diff --cached --quiet; then
   exit 0
 fi
 
+git checkout -b task/$1
+
 git commit -m "Solve: $1"
 
-git push origin main
+git push origin task/$1
