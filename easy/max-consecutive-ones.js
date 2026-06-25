@@ -49,4 +49,4 @@ var findMaxConsecutiveOnes = function(nums) {
     return consecutive
 };
 
-module.exports = findMaxConsecutiveOnes;
+module.exports = findMaxConsecutiveOnes;CDSX
