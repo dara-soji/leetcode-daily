@@ -1,4 +1,4 @@
-const buildArray = require("../easy/build-an-array-with-stack-operations");
+const buildArray = require("../medium/build-an-array-with-stack-operations");
 
 function test(name, actual, expected) {
   const actualString = JSON.stringify(actual);
